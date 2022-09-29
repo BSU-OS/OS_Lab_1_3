@@ -1,0 +1,3 @@
+/home/daniil/CLionProjects/C++/Laba1_2/DynamicLib/cmake-build-debug/CMakeFiles/DynamicLib.dir
+/home/daniil/CLionProjects/C++/Laba1_2/DynamicLib/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/daniil/CLionProjects/C++/Laba1_2/DynamicLib/cmake-build-debug/CMakeFiles/rebuild_cache.dir

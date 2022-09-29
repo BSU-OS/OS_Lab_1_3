@@ -1,0 +1,10 @@
+# ninja log v5
+0	269	1663779629679261592	CMakeFiles/TestSolution.dir/main.cpp.o	e9817fc323bcee36
+1	440	1663780779516919349	CMakeFiles/TestSolution.dir/main.cpp.o	e9817fc323bcee36
+440	542	1663780779616919832	TestSolution	8a2f9f3a82f8af98
+1	582	1664393291796828564	CMakeFiles/TestSolution.dir/main.cpp.o	e9817fc323bcee36
+582	697	1664393291912837911	TestSolution	8a2f9f3a82f8af98
+0	555	1664396015915132970	CMakeFiles/TestSolution.dir/main.cpp.o	e9817fc323bcee36
+555	805	1664396016163120731	TestSolution	8a2f9f3a82f8af98
+0	567	1664396362771514196	CMakeFiles/TestSolution.dir/main.cpp.o	e9817fc323bcee36
+567	674	1664396362883511582	TestSolution	8a2f9f3a82f8af98

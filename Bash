@@ -1,0 +1,11 @@
+gcc -Wall -Werror -Wextra -pedantic -c StaticLib/Number.cpp -o StaticLib/Number.o
+ar rc StaticLib/cmake-build-debug/libStaticLib.a StaticLib/Number.o
+
+gcc -c -fPIC DynamicLib/Vector2D.cpp -LStaticLib/cmake-build-debug -lStaticLib -o DynamicLib/cmake-build-debug/DynamicLib.o 
+
+gcc -shared DynamicLib/cmake-build-debug/DynamicLib.o -o DynamicLib/cmake-build-debug/libDynamicLib.so 
+
+g++ -o TestSolution/cmake-build-debug/TestSolution TestSolution/main.cpp -IDynamicLib/cmake-build-debug -IStaticLib/cmake-build-debug StaticLib/cmake-build-debug/libStaticLib.a DynamicLib/cmake-build-debug/libDynamicLib.so 
+
+./TestSolution/cmake-build-debug/TestSolution 
+
